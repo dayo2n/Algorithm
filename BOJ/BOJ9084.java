@@ -1,5 +1,7 @@
 package BOJ;
 
+// Same Problem with 3067.Coin
+
 import java.io.*;
 import java.util.*;
 public class BOJ9084 {
