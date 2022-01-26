@@ -3,8 +3,7 @@ package BOJ;
 import java.io.*;
 import java.util.*;
 
-public class BOJ15653 {
-    static boolean [] visited;
+public class BOJ15656 {
     static int [] inputArr, retArr;
     static int N, M;
     static StringBuffer sb;
@@ -18,12 +17,9 @@ public class BOJ15653 {
         }
 
         for (int i=0; i<N; i++) {
-            if (!visited[inputArr[i]]) {
-                retArr[depth] = inputArr[i];
-                visited[inputArr[i]] = true;
-                backtracking(depth + 1 );
-                visited[inputArr[i]] = false;
-            }
+            retArr[depth] = inputArr[i];
+            backtracking(depth + 1 );
+
         }
     }
     public static void main(String[] args) throws IOException {
@@ -41,7 +37,6 @@ public class BOJ15653 {
             if (max < inputArr[i]) max = inputArr[i];
         }
         Arrays.sort(inputArr);
-        visited = new boolean[max+1];
         backtracking(0);
         System.out.println(sb);
     }
