@@ -3,7 +3,7 @@ package BOJ;
 import java.io.*;
 import java.util.*;
 
-public class BOJ2667 {
+public class BOJ2667_dfs {
     static int[][] graph;
     static boolean [][] visited;
     static int N; // 정사각형 길이
