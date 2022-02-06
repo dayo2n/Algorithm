@@ -1,8 +1,13 @@
 package BOJ;
 
+import annotation.*;
+import gitrepourlparser.PersonalGitRepositoryUrlParser;
+import readmegenerator.BOJReadmeGenerator;
+
 import java.io.*;
 import java.util.*;
 
+@BOJ ( number = 12851, tier = BaekjoonTier.GOLD_V, solveDate = @SolveDate(year = 2022, month = 2, day = 7))
 public class BOJ12851 {
     static int [] map;
     static boolean [] visited;
@@ -40,6 +45,13 @@ public class BOJ12851 {
         }
     }
     public static void main(String[] args) throws Exception {
+
+        PersonalGitRepositoryUrlParser parser = new PersonalGitRepositoryUrlParser("dayo2n", "BOJ", "main");
+        BOJReadmeGenerator rg = new BOJReadmeGenerator(parser);
+
+        rg.setTitle("알고리즘 늦깎이 다니의 solved.log");
+        rg.generate();
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         N = Integer.parseInt(st.nextToken()); // 수빈이가 있는 위치
