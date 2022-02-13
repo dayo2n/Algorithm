@@ -1,8 +1,15 @@
 package BOJ;
 
+import annotation.BOJ;
+import annotation.BaekjoonTier;
+import annotation.SolveDate;
+
 import java.io.*;
 import java.util.*;
 
+@BOJ(   number = 3036,
+        tier = BaekjoonTier.SILVER_III,
+        solveDate = @SolveDate(year = 2022, month = 2 ,day = 14))
 public class BOJ3036 {
     static int GCD(int a, int b) {
         if(b == 0) return a;

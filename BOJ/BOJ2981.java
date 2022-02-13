@@ -1,8 +1,14 @@
 package BOJ;
 
+import annotation.BOJ;
+import annotation.BaekjoonTier;
+import annotation.SolveDate;
+
 import java.io.*;
 import java.util.*;
-
+@BOJ(   number = 2981,
+        tier = BaekjoonTier.GOLD_V,
+        solveDate = @SolveDate(year = 2022, month = 2 ,day = 10))
 public class BOJ2981 {
 
     static StringBuilder sb;
