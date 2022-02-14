@@ -18,3 +18,4 @@
 |2022-02-11|9375|패션왕 신해빈|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ9375.java)|[문제 주소](https://www.acmicpc.net/problem/9375)|
 |2022-02-13|7562|나이트의 이동|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ7562.java)|[문제 주소](https://www.acmicpc.net/problem/7562)|
 |2022-02-14|3036|링|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ3036.java)|[문제 주소](https://www.acmicpc.net/problem/3036)|
+|2022-02-14|17114|하이퍼 토마토|<img src="https://static.solved.ac/tier_small/15.svg" width="20" height="20" /> GOLD_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ17114.java)|[문제 주소](https://www.acmicpc.net/problem/17114)|
