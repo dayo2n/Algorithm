@@ -19,3 +19,5 @@
 |2022-02-13|7562|나이트의 이동|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ7562.java)|[문제 주소](https://www.acmicpc.net/problem/7562)|
 |2022-02-14|3036|링|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ3036.java)|[문제 주소](https://www.acmicpc.net/problem/3036)|
 |2022-02-14|17114|하이퍼 토마토|<img src="https://static.solved.ac/tier_small/15.svg" width="20" height="20" /> GOLD_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ17114.java)|[문제 주소](https://www.acmicpc.net/problem/17114)|
+|2022-02-15|1927|최소 힙|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ1927.java)|[문제 주소](https://www.acmicpc.net/problem/1927)|
+|2022-02-15|11279|최대 힙|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ11279.java)|[문제 주소](https://www.acmicpc.net/problem/11279)|
