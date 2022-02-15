@@ -1,9 +1,15 @@
 package BOJ;
 
+import annotation.*;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
+
+@BOJ(   number = 1931,
+        tier = BaekjoonTier.SILVER_II,
+        solveDate = @SolveDate(year = 2022, month = 2 ,day = 16))
 
 public class BOJ1931 {
 
