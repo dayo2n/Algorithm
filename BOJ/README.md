@@ -25,3 +25,4 @@
 |2022-02-16|1931|회의실 배정|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ1931.java)|[문제 주소](https://www.acmicpc.net/problem/1931)|
 |2022-02-17|7662|이중 우선순위 큐|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20" /> GOLD_V|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ7662.java)|[문제 주소](https://www.acmicpc.net/problem/7662)|
 |2022-02-18|1149|RGB거리|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20" /> SILVER_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ1149.java)|[문제 주소](https://www.acmicpc.net/problem/1149)|
+|2022-02-19|1912|연속합|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ1912.java)|[문제 주소](https://www.acmicpc.net/problem/1912)|
