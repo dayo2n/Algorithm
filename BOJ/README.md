@@ -28,3 +28,4 @@
 |2022-02-19|1912|연속합|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ1912.java)|[문제 주소](https://www.acmicpc.net/problem/1912)|
 |2022-02-19|2193|이친수|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ2193.java)|[문제 주소](https://www.acmicpc.net/problem/2193)|
 |2022-02-20|1057|토너먼트|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ1057.java)|[문제 주소](https://www.acmicpc.net/problem/1057)|
+|2022-02-21|2631|줄세우기|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20" /> GOLD_V|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ2631.java)|[문제 주소](https://www.acmicpc.net/problem/2631)|
