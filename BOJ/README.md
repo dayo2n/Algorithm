@@ -30,3 +30,5 @@
 |2022-02-20|1057|토너먼트|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ1057.java)|[문제 주소](https://www.acmicpc.net/problem/1057)|
 |2022-02-21|2631|줄세우기|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20" /> GOLD_V|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ2631.java)|[문제 주소](https://www.acmicpc.net/problem/2631)|
 |2022-02-23|10799|쇠막대기|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ10799.java)|[문제 주소](https://www.acmicpc.net/problem/10799)|
+|2022-02-24|3273|두 수의 합|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ3273.java)|[문제 주소](https://www.acmicpc.net/problem/3273)|
+|2022-02-25|9461|파도반 수열|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ9461.java)|[문제 주소](https://www.acmicpc.net/problem/9461)|
