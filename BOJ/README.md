@@ -32,3 +32,4 @@
 |2022-02-23|10799|쇠막대기|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ10799.java)|[문제 주소](https://www.acmicpc.net/problem/10799)|
 |2022-02-24|3273|두 수의 합|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ3273.java)|[문제 주소](https://www.acmicpc.net/problem/3273)|
 |2022-02-25|9461|파도반 수열|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ9461.java)|[문제 주소](https://www.acmicpc.net/problem/9461)|
+|2022-02-26|10090|Counting Inversions|<img src="https://static.solved.ac/tier_small/16.svg" width="20" height="20" /> PLATINUM_V|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ10090.java)|[문제 주소](https://www.acmicpc.net/problem/10090)|
