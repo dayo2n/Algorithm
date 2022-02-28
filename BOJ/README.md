@@ -34,3 +34,4 @@
 |2022-02-25|9461|파도반 수열|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ9461.java)|[문제 주소](https://www.acmicpc.net/problem/9461)|
 |2022-02-26|10090|Counting Inversions|<img src="https://static.solved.ac/tier_small/16.svg" width="20" height="20" /> PLATINUM_V|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ10090.java)|[문제 주소](https://www.acmicpc.net/problem/10090)|
 |2022-02-27|11659|구간 합 구하기 4|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ11659.java)|[문제 주소](https://www.acmicpc.net/problem/11659)|
+|2022-02-28|9996|한국이 그리울 땐 서버에 접속하지|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ9996.java)|[문제 주소](https://www.acmicpc.net/problem/9996)|
