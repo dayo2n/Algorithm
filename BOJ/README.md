@@ -40,3 +40,4 @@
 |2022-03-02|1013|Contact|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20" /> GOLD_V|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ1013.java)|[문제 주소](https://www.acmicpc.net/problem/1013)|
 |2022-03-03|1916|최소비용 구하기|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20" /> GOLD_V|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ1916.java)|[문제 주소](https://www.acmicpc.net/problem/1916)|
 |2022-03-03|7795|먹을 것인가 먹힐 것인가|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ7795.java)|[문제 주소](https://www.acmicpc.net/problem/7795)|
+|2022-03-05|11758|CCW|<img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20" /> GOLD_V|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ11758.java)|[문제 주소](https://www.acmicpc.net/problem/11758)|
