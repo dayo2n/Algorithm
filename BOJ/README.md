@@ -44,3 +44,4 @@
 |2022-03-07|20003|거스름돈이 싫어요|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20" /> SILVER_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ20003.java)|[문제 주소](https://www.acmicpc.net/problem/20003)|
 |2022-03-08|14716|현수막|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20" /> SILVER_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ14716.java)|[문제 주소](https://www.acmicpc.net/problem/14716)|
 |2022-03-09|11123|양 한마리... 양 두마리...|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20" /> SILVER_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ11123.java)|[문제 주소](https://www.acmicpc.net/problem/11123)|
+|2022-03-10|15240|Paint bucket|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20" /> SILVER_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ15240.java)|[문제 주소](https://www.acmicpc.net/problem/15240)|
