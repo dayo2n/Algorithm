@@ -48,3 +48,4 @@
 |2022-03-11|17299|오등큰수|<img src="https://static.solved.ac/tier_small/13.svg" width="20" height="20" /> GOLD_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ17299.java)|[문제 주소](https://www.acmicpc.net/problem/17299)|
 |2022-03-12|5076|Web Pages|<img src="https://static.solved.ac/tier_small/12.svg" width="20" height="20" /> GOLD_IV|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ5076.java)|[문제 주소](https://www.acmicpc.net/problem/5076)|
 |2022-03-13|10654|Cow Jog|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20" /> SILVER_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ10654.java)|[문제 주소](https://www.acmicpc.net/problem/10654)|
+|2022-03-15|19638|센티와 마법의 뿅망치|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20" /> SILVER_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ19638.java)|[문제 주소](https://www.acmicpc.net/problem/19638)|
