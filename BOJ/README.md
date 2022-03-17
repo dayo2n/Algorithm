@@ -49,3 +49,5 @@
 |2022-03-12|5076|Web Pages|<img src="https://static.solved.ac/tier_small/12.svg" width="20" height="20" /> GOLD_IV|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ5076.java)|[문제 주소](https://www.acmicpc.net/problem/5076)|
 |2022-03-13|10654|Cow Jog|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20" /> SILVER_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ10654.java)|[문제 주소](https://www.acmicpc.net/problem/10654)|
 |2022-03-15|19638|센티와 마법의 뿅망치|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20" /> SILVER_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ19638.java)|[문제 주소](https://www.acmicpc.net/problem/19638)|
+|2022-03-16|2644|촌수계산|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ2644.java)|[문제 주소](https://www.acmicpc.net/problem/2644)|
+|2022-03-18|24819|Escape Wall Maria|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20" /> SILVER_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ24819.java)|[문제 주소](https://www.acmicpc.net/problem/24819)|
