@@ -53,3 +53,4 @@
 |2022-03-18|24819|Escape Wall Maria|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20" /> SILVER_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ24819.java)|[문제 주소](https://www.acmicpc.net/problem/24819)|
 |2022-03-19|1929|소수 구하기|<img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20" /> SILVER_III|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ1929.java)|[문제 주소](https://www.acmicpc.net/problem/1929)|
 |2022-03-19|4948|베르트랑 공준|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ4948.java)|[문제 주소](https://www.acmicpc.net/problem/4948)|
+|2022-03-20|15965|K번째 소수|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ9020.java)|[문제 주소](https://www.acmicpc.net/problem/15965)|
