@@ -56,3 +56,4 @@
 |2022-03-20|15965|K번째 소수|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ9020.java)|[문제 주소](https://www.acmicpc.net/problem/15965)|
 |2022-03-21|1138|한 줄로 서기|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ1138.java)|[문제 주소](https://www.acmicpc.net/problem/1138)|
 |2022-03-23|1141|접두사|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ1141.java)|[문제 주소](https://www.acmicpc.net/problem/1141)|
+|2022-03-25|2696|중앙값 구하기|<img src="https://static.solved.ac/tier_small/14.svg" width="20" height="20" /> GOLD_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ2696.java)|[문제 주소](https://www.acmicpc.net/problem/2696)|
