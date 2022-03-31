@@ -59,3 +59,4 @@
 |2022-03-25|2696|중앙값 구하기|<img src="https://static.solved.ac/tier_small/14.svg" width="20" height="20" /> GOLD_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ2696.java)|[문제 주소](https://www.acmicpc.net/problem/2696)|
 |2022-03-26|2251|물통|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20" /> SILVER_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ2251.java)|[문제 주소](https://www.acmicpc.net/problem/2251)|
 |2022-03-28|3896|소수 사이 수열|<img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20" /> SILVER_I|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ3896.java)|[문제 주소](https://www.acmicpc.net/problem/3896)|
+|2022-03-31|19583|싸이버개강총회|<img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20" /> SILVER_II|[풀이](https://github.com/dayo2n/Algorithm/blob/main/BOJ/BOJ19583.java)|[문제 주소](https://www.acmicpc.net/problem/19583)|
