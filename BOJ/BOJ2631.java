@@ -3,6 +3,11 @@ package BOJ;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+import annotation.*;
+@BOJ(   number = 2631,
+        tier = BaekjoonTier.GOLD_V,
+        solveDate = @SolveDate(year = 2022, month = 2 ,day = 21))
+
 public class BOJ2631 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

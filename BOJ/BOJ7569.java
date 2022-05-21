@@ -1,4 +1,8 @@
 package BOJ;
+import annotation.BOJ;
+import annotation.BaekjoonTier;
+import annotation.SolveDate;
+
 import java.io.*;
 import java.util.*;
 
@@ -10,6 +14,9 @@ class Tomato {
         this.z = z;
     }
 }
+@BOJ(   number = 7569,
+        tier = BaekjoonTier.GOLD_V,
+        solveDate = @SolveDate(year = 2022, month = 2 ,day = 2))
 public class BOJ7569 {
     static int [][][] tomato;
     static int [][][] days;

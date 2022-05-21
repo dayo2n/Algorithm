@@ -5,6 +5,11 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+import annotation.*;
+@BOJ(   number = 3273,
+        tier = BaekjoonTier.SILVER_III,
+        solveDate = @SolveDate(year = 2022, month = 2 ,day = 24))
+
 public class BOJ3273 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

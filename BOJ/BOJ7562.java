@@ -1,11 +1,17 @@
 package BOJ;
 
+import annotation.BOJ;
+import annotation.BaekjoonTier;
+import annotation.SolveDate;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
-
+@BOJ(   number = 7562,
+        tier = BaekjoonTier.SILVER_II,
+        solveDate = @SolveDate(year = 2022, month = 2 ,day = 13))
 public class BOJ7562 {
     static int I;
     static int [][] chessBoard;

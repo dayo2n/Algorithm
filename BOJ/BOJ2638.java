@@ -1,12 +1,18 @@
 package BOJ;
 
+import annotation.BOJ;
+import annotation.BaekjoonTier;
+import annotation.SolveDate;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
-
+@BOJ(   number = 2638,
+        tier = BaekjoonTier.GOLD_IV,
+        solveDate = @SolveDate(year = 2022, month = 2 ,day = 2))
 public class BOJ2638 {
     static int [][] cheese, airCnt;
     static Queue<int []> queue;

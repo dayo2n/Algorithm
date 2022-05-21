@@ -39,7 +39,6 @@ public class Tree {
 
     public void preOrder(Node node) { // 전위 순회
         if (node == null) return;
-
         System.out.print(node.data + " ");
         preOrder(node.left);
         preOrder(node.right);

@@ -1,12 +1,11 @@
 package BOJ;
-
 import gitrepourlparser.PersonalGitRepositoryUrlParser;
 import readmegenerator.BOJReadmeGenerator;
 /*
 import annotation.*;
 @BOJ(   number = ,
         tier = BaekjoonTier,
-        solveDate = @SolveDate(year = 2022, month = 2 ,day = ))
+        solveDate = @SolveDate(year = 2022, month = 3 ,day = ))
  */
 public class RMGenerator {
     public static void main(String[] args) {

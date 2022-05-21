@@ -1,10 +1,16 @@
 package BOJ;
 
+import annotation.BOJ;
+import annotation.BaekjoonTier;
+import annotation.SolveDate;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
-
+@BOJ(   number = 3584,
+        tier = BaekjoonTier.GOLD_IV,
+        solveDate = @SolveDate(year = 2022, month = 2 ,day = 10))
 public class BOJ3584 {
     static LinkedList<Integer> [] tree;
     static int [] parent, depth;

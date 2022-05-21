@@ -3,6 +3,11 @@ package BOJ;
 import java.io.*;
 import java.util.*;
 
+import annotation.*;
+@BOJ(   number = 7662,
+        tier = BaekjoonTier.GOLD_V,
+        solveDate = @SolveDate(year = 2022, month = 2 ,day = 17))
+
 public class BOJ7662 {
     static class MinHeap {
         ArrayList<int []> minHeap;

@@ -7,7 +7,7 @@ import readmegenerator.BOJReadmeGenerator;
 import java.io.*;
 import java.util.*;
 
-@BOJ ( number = 12851, tier = BaekjoonTier.GOLD_V, solveDate = @SolveDate(year = 2022, month = 2, day = 7))
+@BOJ ( number = 12851, tier = BaekjoonTier.GOLD_V, solveDate = @SolveDate(year = 2022, month = 2, day =4))
 public class BOJ12851 {
     static int [] map;
     static boolean [] visited;

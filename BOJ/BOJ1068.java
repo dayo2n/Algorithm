@@ -1,25 +1,31 @@
 package BOJ;
 
+import annotation.BOJ;
+import annotation.BaekjoonTier;
+import annotation.SolveDate;
+
 import java.io.*;
 import java.util.*;
 
-class Node{
-    int data;
-    Node parent;
-    LinkedList<Node> child;
-
-    Node (int data) {
-        this.data = data;
-        this.parent = null;
-        this.child = new LinkedList<>();
-    }
-
-    int childCount() {
-        return child.size();
-    }
-}
-
+@BOJ(   number = 1068,
+        tier = BaekjoonTier.GOLD_V,
+        solveDate = @SolveDate(year = 2022, month = 2 ,day = 8))
 public class BOJ1068 {
+    static class Node{
+        int data;
+        Node parent;
+        LinkedList<Node> child;
+
+        Node (int data) {
+            this.data = data;
+            this.parent = null;
+            this.child = new LinkedList<>();
+        }
+
+        int childCount() {
+            return child.size();
+        }
+    }
 
     static Node root;
     static Node [] tree;

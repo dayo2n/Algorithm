@@ -1,8 +1,14 @@
 package BOJ;
 
+import annotation.BOJ;
+import annotation.BaekjoonTier;
+import annotation.SolveDate;
+
 import java.io.*;
 import java.util.*;
-
+@BOJ(   number = 2573,
+        tier = BaekjoonTier.GOLD_IV,
+        solveDate = @SolveDate(year = 2022, month = 1 ,day = 31))
 public class BOJ2573 {
     static int [][] map;
     static boolean [][] visited;
