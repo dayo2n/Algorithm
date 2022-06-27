@@ -31,8 +31,8 @@ func solution(_ numbers:[Int], _ hand:String) -> String {
             tapHand = .right
             
         case 2, 5, 8, 11:
-            let leftTemp = (number - currentLeft).magnitude
-            let rightTemp = (number - currentRight).magnitude
+            let leftTemp = (target - currentLeft).magnitude
+            let rightTemp = (target - currentRight).magnitude
               
           let leftDistance = (leftTemp / 3) + (leftTemp % 3)
           let rightDistance = (rightTemp / 3) + (rightTemp % 3)
