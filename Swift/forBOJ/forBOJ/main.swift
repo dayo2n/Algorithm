@@ -5,7 +5,16 @@
 //  Created by 문다 on 2022/01/13.
 //
 
-import Foundation
+//import Foundation
 
-//print(toInt - 543)
-//print(input!)
+var input = Int(readLine()!)!
+
+for idx in (0..<input) {
+    for _ in (0..<idx).reversed() {
+        print(" ", terminator: "")
+    }
+    for _ in 0...idx {
+        print("*", terminator: "")
+    }
+    print("")
+}
