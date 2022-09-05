@@ -11,8 +11,9 @@ func solution(_ absolutes:[Int], _ signs:[Bool]) -> Int {
     
     var result: Int = 0
     for (idx, absolute) in absolutes.enumerated() {
-        var number = signs[idx] ? absolute : -absolute
-        result = result + number
+//        var number = signs[idx] ? absolute : -absolute
+//        result = result + number
+        result = result + (signs[idx] ? absolute : -absolute)
     }
     return result
 }
