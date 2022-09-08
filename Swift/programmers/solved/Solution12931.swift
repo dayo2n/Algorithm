@@ -8,11 +8,14 @@ import Foundation
 
 func solution(_ n:Int) -> Int
 {
-    var answer:Int = 0
+//    var answer:Int = 0
+//
+//    String(n).enumerated().forEach {
+//        answer = answer + Int(String($0.element))!
+//    }
+//
+//    return answer
     
-    String(n).enumerated().forEach {
-        answer = answer + Int(String($0.element))!
-    }
-    
-    return answer
+    return String(n).reduce(0, {$0+Int(String($1))!})
+    // error with spaces
 }
