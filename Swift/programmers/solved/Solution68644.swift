@@ -10,5 +10,6 @@ func solution(_ numbers:[Int]) -> [Int] {
             }
         }
     }
+    // 이중for문을 쓸 수 밖에 없는 문제인듯
     return answer.sorted().map{Int($0)}
 }
