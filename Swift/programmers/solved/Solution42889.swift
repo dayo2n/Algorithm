@@ -16,3 +16,5 @@ func solution(_ N:Int, _ stages:[Int]) -> [Int] {
     }
     return failure.sorted{$0.1 > $1.1}.map{$0.0}
 }
+
+// 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/42889

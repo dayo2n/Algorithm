@@ -95,3 +95,5 @@ print(solution("z-+.^.")) // z--
 print(solution("=.=")) // aaa
 print(solution("123_.def")) // 123_.def
 print(solution("abcdefghijklmn.p")) // abcdefghijklmn
+
+// 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/72410

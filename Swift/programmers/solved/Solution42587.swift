@@ -25,3 +25,5 @@ func solution(_ priorities:[Int], _ location:Int) -> Int {
     
     return order
 }
+
+// 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/42587

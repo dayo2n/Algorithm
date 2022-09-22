@@ -18,3 +18,5 @@ func solution(_ answers:[Int]) -> [Int] {
     let maxScore = scores.max{ $0.value < $1.value }!.value
     return [Int](scores.filter{ $0.value == maxScore }.keys).sorted()
 }
+
+// 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/42840

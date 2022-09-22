@@ -29,3 +29,5 @@ func solution(_ numbers:[Int]) -> String {
 
 print(solution([6, 10, 2]))
 print(solution([3, 30, 34, 5, 9]))
+
+// 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/42746

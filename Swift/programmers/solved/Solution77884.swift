@@ -12,3 +12,5 @@ func solution(_ left:Int, _ right:Int) -> Int {
     }
     return answer
 }
+
+// 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/77884

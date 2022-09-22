@@ -14,3 +14,5 @@ func solution(_ s:String) -> [Int] {
     }
     return [transformed, removed]
 }
+
+// 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/70129

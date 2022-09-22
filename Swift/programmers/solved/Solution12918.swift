@@ -4,3 +4,5 @@ func solution(_ s:String) -> Bool {
 //    return s.filter{!numbers.contains(String($0))} == ""
     return Int(s) != nil
 }
+
+// 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/12918

@@ -31,3 +31,5 @@ func solution(_ numbers:[Int], _ target:Int) -> Int {
 
 print(solution([1, 1, 1, 1, 1], 3))
 print(solution([4, 1, 2, 1], 4))
+
+// 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/43165

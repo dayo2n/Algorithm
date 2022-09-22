@@ -11,3 +11,5 @@ func solution(_ s:String) -> Bool
     
     return openBracket == 0 ? true : false
 }
+
+// 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/12909

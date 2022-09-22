@@ -7,3 +7,5 @@ func solution(_ a:Int, _ b:Int) -> String {
     formatter.dateFormat = "EEE"
     return formatter.string(from: date!).uppercased()
 }
+
+// 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/12901

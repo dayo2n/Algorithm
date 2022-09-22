@@ -46,3 +46,5 @@ func solution(_ n:Int) -> Int {
 //테스트 10 〉    통과 (154.37ms, 16.2MB)
 //테스트 11 〉    통과 (576.42ms, 16.6MB)
 //테스트 12 〉    통과 (180.09ms, 16.6MB)
+
+// 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/12921

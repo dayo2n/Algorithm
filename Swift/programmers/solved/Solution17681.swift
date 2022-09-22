@@ -12,3 +12,5 @@ func solution(_ n:Int, _ arr1:[Int], _ arr2:[Int]) -> [String] {
     }
     return answer
 }
+
+// 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/17681
