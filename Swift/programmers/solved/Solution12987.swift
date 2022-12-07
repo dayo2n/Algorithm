@@ -24,3 +24,25 @@ func solution(_ a:[Int], _ b:[Int]) -> Int {
     }
     return score
 }
+
+
+// 인덱스를 이용해서 시간초과를 줄이는 방법
+
+import Foundation
+
+func solution(_ a:[Int], _ b:[Int]) -> Int {
+    var sortedA: [Int] = a.sorted()
+    var sortedB: [Int] = b.sorted()
+    var cursorA: Int = sortedA.count - 1
+    var cursorB: Int = sortedB.count - 1
+    var score: Int = 0
+    
+    while cursorA > -1 {
+        if sortedA[cursorA] < sortedB[cursorB] {
+            cursorB -= 1
+            score += 1
+        }
+        cursorA -= 1
+    }
+    return score
+}
