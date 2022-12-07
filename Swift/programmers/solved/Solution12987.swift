@@ -39,6 +39,7 @@ func solution(_ a:[Int], _ b:[Int]) -> Int {
     
     while cursorA > -1 {
         if sortedA[cursorA] < sortedB[cursorB] {
+            // B의 숫자가 더 크면 커서 B를 움직이고, 점수 획득
             cursorB -= 1
             score += 1
         }
@@ -46,3 +47,8 @@ func solution(_ a:[Int], _ b:[Int]) -> Int {
     }
     return score
 }
+
+/*
+ while문 안에서 for문을 또 돌면서 값을 순차적으로 검사하는 게 아니라,
+ 두 배열 모두 오름차순 정렬하고 인덱스만 조정하면서 값을 비교는 방법으로 해결
+*/
