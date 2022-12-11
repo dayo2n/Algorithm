@@ -14,3 +14,23 @@ func solution(_ topping:[Int]) -> Int {
     }
     return answer
 }
+
+// 방법2. 동생들의 topping 종류 별 수를 따로 저장하고, 남은 토핑들의 수를 줄여가면서 비교: 해결
+import Foundation
+
+func solution(_ topping:[Int]) -> Int {
+    var answer: Int = 0
+    var ChulsooHas: Set<Int> = []
+    var brothersHave: Int = Set(topping).count
+    var restTopping: [Int] = Array(repeating: 0, count: topping.max()! + 1) // restTopping[0]은 쓰지 않음
+    for type in topping { restTopping[type] += 1}
+    for cut in topping {
+        ChulsooHas.insert(cut)
+        if restTopping[cut] > 0 {
+            restTopping[cut] -= 1
+            if restTopping[cut] == 0 { brothersHave -= 1 }
+        }
+        if ChulsooHas.count == brothersHave { answer += 1 }
+    }
+    return answer
+}
