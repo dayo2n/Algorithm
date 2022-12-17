@@ -1,3 +1,5 @@
+// [출처: BOJ] https://www.acmicpc.net/problem/2167
+
 import Foundation
 
 let input: [Int] = readLine()!.split(separator: " ").map{Int($0)!}
