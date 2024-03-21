@@ -1,3 +1,7 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/1629
+// 분할정복
+
 import Foundation
 let input = readLine()!.split(separator: " ").map { Int($0)! }
 let (a, b, c) = (input[0], input[1], input[2])
