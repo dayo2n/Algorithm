@@ -1,3 +1,7 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/2805
+// 이분탐색
+
 let input = readLine()!.split(separator: " ").map{ Int($0)! }
 let (n, m) = (input[0], input[1])
 let trees = readLine()!.split(separator: " ").map{ Int($0)! }
