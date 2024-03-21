@@ -1,3 +1,7 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/2805
+// dp, 점화식 찾기 어려웠다 ...
+
 import Foundation
 let input = Int(readLine()!)!
 if input == 1 {
