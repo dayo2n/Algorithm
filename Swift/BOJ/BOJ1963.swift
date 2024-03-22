@@ -1,3 +1,7 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/1963
+// 에라토스테네스의 체, BFS
+
 import Foundation
 
 let MAX_NUMBER = 10_000
