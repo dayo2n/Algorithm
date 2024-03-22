@@ -1,13 +1,10 @@
-let N = Int(readLine()!)!
-let cards = readLine()!.split(separator: " ").map { Int($0)! }
-var dp = Array(repeating: 0, count: cards.count + 1)
-dp[1] = cards[0]
+let testcase = Int(readLine()!)!
 
-for index in 2..<dp.count {
-    dp[index] = cards[index - 1]
-    for number in 1..<index {
-        dp[index] = min(dp[index], dp[index - number] + dp[number])
-    }
+var dp = Array(repeating: -1, count: 10_000)
+dp[1] = 1
+dp[2] = 1
+
+for _ in 0..<testcase {
+    let n = Int(readLine()!)!
+    
 }
-
-print(dp[N])
