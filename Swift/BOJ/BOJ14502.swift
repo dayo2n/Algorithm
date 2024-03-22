@@ -1,3 +1,7 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/14502
+// 브루트포스, BFS
+
 import Foundation
 var input = readLine()!.split(separator: " ").map { Int($0)! }
 let (N ,M) = (input[0], input[1])
