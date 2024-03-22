@@ -1,3 +1,7 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/16194
+// DP
+
 let N = Int(readLine()!)!
 let cards = readLine()!.split(separator: " ").map { Int($0)! }
 var dp = Array(repeating: 0, count: cards.count + 1)
