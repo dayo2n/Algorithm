@@ -1,3 +1,7 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/5568
+// 백트래킹
+
 let n = Int(readLine()!)!
 let k = Int(readLine()!)!
 var cards = [Int]()
