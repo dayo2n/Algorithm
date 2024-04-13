@@ -1,3 +1,9 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/4920
+/*
+ 브루트포스로 가능한 케이스 모두 처리해야 함. 13가지 경우 처리~!
+ DFS로 해결못한다...
+ */
 var testcase = 1
 while true {
     let n = Int(readLine()!.split(separator: " ")[0])!
@@ -40,7 +46,7 @@ while true {
                 maxSum = max(
                     maxSum,
                     [
-                        board[row][col], board[row][col+1], 
+                        board[row][col], board[row][col+1],
                         board[row+1][col+1], board[row+1][col+2]
                     ].reduce(0, +)
                 )
