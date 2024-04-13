@@ -1,3 +1,6 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/10845
+
 struct Queue {
     var queue: [Int]
     
