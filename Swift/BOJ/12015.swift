@@ -1,3 +1,8 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/12015
+/*
+ LIS에 해당하는 값을 구해 담음
+ */
 let N = Int(readLine()!)!
 let array = readLine()!.split(separator: " ").map { Int($0)! }
 var LIS = [Int]()
