@@ -1,3 +1,6 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/11053
+
 let N = Int(readLine()!)!
 let array = readLine()!.split(separator: " ").map { Int($0)! }
 var LIS = [Int]()
