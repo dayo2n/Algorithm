@@ -1,30 +1,19 @@
 let N = Int(readLine()!)!
-let array = readLine()!.split(separator: " ").map { Int($0)! }
-var LIS = [Int]()
 
-for (index, number) in array.enumerated() {
-    if index == 0 {
-        LIS.append(number)
-        continue
+if N == 1 {
+    print(10)
+    exit(0)
+}
+var dp = [[Int]]()
+dp.append(Array(repeating: 0, count: 10))
+dp.append(Array(repeating: 1, count: 10))
+
+for length in 2...N {
+    var array = Array(repeating: 0, count: 10)
+    for number in 0..<10 {
+        array[number] = dp[length - 1][number..<10].reduce(0, +) % 10_007
     }
-    if let last = LIS.last {
-        if last < number {
-            LIS.append(number)
-            continue
-        }
-    }
-    
-    var (low, high) = (0, LIS.count - 1)
-    while low <= high {
-        let mid = (low + high) / 2
-        if LIS[mid] < number {
-            low = mid + 1
-        } else {
-            high = mid - 1
-        }
-    }
-    
-    LIS[low] = number
+    dp.append(array)
 }
 
-print(LIS.count)
+print(dp[N].reduce(0, +) % 10_007)
