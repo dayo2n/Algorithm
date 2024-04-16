@@ -1,27 +1,39 @@
-let N = Int(readLine()!)!
-var dp = Array(repeating: Array(repeating: 0, count: 3), count: N)
-var cost = [[Int]]()
+let input = readLine()!.split(separator: " ").map { Int($0)! }
+let totalDot = input[0]
+let totalRound = input[1]
+var parent = [Int](0..<totalDot)
 
-for n in 0..<N {
-    cost.append(readLine()!.split(separator: " ").map { Int($0)! })
-    if n == 0 {
-        dp[0] = cost[0]
+func findRoot(_ child: Int) -> Int {
+    if parent[child] == child {
+        return child
+    }
+    
+    parent[child] = findRoot(parent[child])
+    return parent[child]
+}
+
+func union(_ first: Int, _ second: Int) {
+    let parentFirst = findRoot(first), parentSecond = findRoot(second)
+    
+    if parentFirst < parentSecond {
+        parent[parentSecond] = parentFirst
+    } else {
+        parent[parentFirst] = parentSecond
     }
 }
 
-var minCost = Int.max
-for rgb in 0..<3 {
-    for color in 0..<3 {
-        dp[0][color] = rgb == color ? cost[0][color] : 1_001
+for round in 0..<totalRound {
+    let dots = readLine()!.split(separator: " ").map { Int($0)! }
+    let first = dots[0], second = dots[1]
+    
+    if findRoot(first) == findRoot(second) {
+        print(round + 1)
+        break
     }
-    for index in 1..<N {
-        dp[index][0] = min(dp[index - 1][1], dp[index - 1][2]) + cost[index][0]
-        dp[index][1] = min(dp[index - 1][0], dp[index - 1][2]) + cost[index][1]
-        dp[index][2] = min(dp[index - 1][0], dp[index - 1][1]) + cost[index][2]
-    }
-    for index in dp[N-1].indices {
-        if index == rgb { continue }
-        minCost = min(minCost, dp[N-1][index])
+    
+    union(first, second)
+    
+    if round == totalRound - 1 {
+        print(0)
     }
 }
-print(minCost)
