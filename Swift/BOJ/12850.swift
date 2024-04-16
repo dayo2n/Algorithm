@@ -1,3 +1,9 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/12850
+/*
+인접행렬의 곱, 분할 정복을 이용한 거듭제곱
+ */
+
 let minute = Int(readLine()!)!
 let MOD = 1_000_000_007
 
