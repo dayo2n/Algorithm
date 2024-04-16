@@ -1,3 +1,11 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/17404
+/*
+ DP
+ 개어려움 ;; 다들 어케 푸는겨
+ 3차원 배열을 만들어야하나 했는데 그냥 for문 한 번 더 쓰고 갱신해주면 되더라
+ */
+
 let N = Int(readLine()!)!
 var dp = Array(repeating: Array(repeating: 0, count: 3), count: N)
 var cost = [[Int]]()
