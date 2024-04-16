@@ -1,3 +1,9 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/1717
+/*
+분리집합 union&find
+ */
+
 let input = readLine()!.split(separator: " ").map { Int($0)! }
 let n = input[0]
 let m = input[1]
