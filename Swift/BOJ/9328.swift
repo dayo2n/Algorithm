@@ -1,3 +1,9 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/9328
+/*
+BFS
+ */
+
 import Foundation
 enum PositionType: String {
     /*
