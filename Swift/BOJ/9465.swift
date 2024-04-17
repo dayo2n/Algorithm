@@ -1,3 +1,9 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/9465
+/*
+DP
+ */
+
 let testcase = Int(readLine()!)!
 for _ in 0..<testcase {
     let n = Int(readLine()!)!
