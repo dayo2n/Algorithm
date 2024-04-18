@@ -1,3 +1,9 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/1647
+/*
+ 최소 스패닝 트리
+ readLine으로 입력받으면 시간초과남
+ */
 import Foundation
 final class FileIO {
     private var buffer:[UInt8]
