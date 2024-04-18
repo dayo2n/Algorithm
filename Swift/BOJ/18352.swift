@@ -1,3 +1,25 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/1647
+/*
+ graph를 2차원 배열로 선언했다가 메모리초과,
+ 모든 도시에 대해 min cost를 구했다가 시간초과,
+ X에서 X로 가는 경우를 포함시켜 출력했다가 틀렸었음
+ 아래는 그 반례
+ input
+ 4 4 2 1
+ 1 2
+ 1 3
+ 3 4
+ 2 1
+ 
+ output
+ 1
+ 4
+ 
+ answer
+ 4
+ */
+
 var input = readLine()!.split(separator: " ").map { Int($0)! }
 let (N, M, K, X) = (input[0], input[1], input[2], input[3])
 
