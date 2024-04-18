@@ -1,3 +1,9 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/1922
+/*
+ 최소 스패닝 트리: union & find
+ */
+
 let N = Int(readLine()!)! // #computer
 let M = Int(readLine()!)! // #cable (enable to connect)
 
