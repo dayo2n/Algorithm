@@ -1,3 +1,11 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/11403
+/*
+ DFS
+ 처음에 비방향 그래프로 생각해서 인접행렬의 거듭제곱으로 잘못 푼 문제
+ 방향성이 있다는 점만 유의하면 DFS로 쉽게 풀림 + (i, j)가 같은 경우, 처음 큐를 돌 때만 유의
+ */
+
 let N = Int(readLine()!)!
 
 var matrix = [[Int]]()
