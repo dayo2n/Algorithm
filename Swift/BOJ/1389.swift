@@ -1,3 +1,11 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/1389
+/*
+ DFS
+ 앞서 푼 경로찾기랑 거의 유사한 문제였따
+ 실버1치고 쉬운듯
+ */
+
 var input = readLine()!.split(separator: " ").map { Int($0)! }
 let (N, M) = (input[0], input[1])
 
