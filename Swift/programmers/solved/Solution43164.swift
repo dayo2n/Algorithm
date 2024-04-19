@@ -1,3 +1,9 @@
+/*
+ dfs + 재귀 문제
+ 두 문자열 배열을 알파벳순으로 빠른걸 탐색해야 해서 흠칫했는데 zip 써주니까 바로 풀림ㅎ
+ 그리고 dfs에서 결과값 리턴할 때 3중 맵핑하는데 신기하게도 시간초과가 안났다 ... 하지만 개선하는 것이 좋을듯
+ */
+
 import Foundation
 
 func solution(_ tickets:[[String]]) -> [String] {
@@ -13,11 +19,9 @@ func solution(_ tickets:[[String]]) -> [String] {
             visited[from] = [false]
         }
     }
-    print(ways)
     
     var returnResults = [String]()
     func dfs(_ from: String, _ visited: [String: [Bool]], _ results: [String]) {
-//        print(results)
         if results.count == tickets.count + 1,
            visited.map { $0.value }.flatMap { $0 }.filter { !$0 }.isEmpty {
             if !returnResults.isEmpty {
@@ -49,6 +53,3 @@ func solution(_ tickets:[[String]]) -> [String] {
     dfs("ICN", visited, ["ICN"])
     return returnResults
 }
-
-//print(solution([["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]))
-print(solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]))
