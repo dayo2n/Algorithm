@@ -1,4 +1,10 @@
 
+// [출처: BOJ] https://www.acmicpc.net/problem/3226
+/*
+ 시간에 따른 돈 계산하는 문제
+ */
+
+
 let n = Int(readLine()!)!
 var totalCharge = 0
 for _ in 0..<n {
