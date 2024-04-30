@@ -1,3 +1,10 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/30679
+/*
+ 시뮬레이션
+ 모든 열을 다 도는 줄 알고 잠깐 헤맸는데 모든 행 첫 번째 열에 대해서만 시뮬레이션 돌리는 문제
+ */
+
 let input = readLine()!.split(separator: " ").map { Int($0)! }
 let (n, m) = (input[0], input[1])
 
