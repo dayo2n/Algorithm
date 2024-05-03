@@ -1,3 +1,12 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/4485
+
+/*
+ 원래는 visited로 이미 방문한 곳을 다시 방문하는 경우는 최소 비용이 나오지 않을 것이라고 생각했는데,
+ 생각해보면 방문했던 곳을 다시 방문해야 하는 경우도 있음
+ 최소 비용인지만 확인해주면 다익스트라 + 그래프로 풀리는 문제
+ */
+
 var testcase = 1
 while true {
     let caveSize = Int(readLine()!)!
