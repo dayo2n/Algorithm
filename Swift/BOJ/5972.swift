@@ -1,3 +1,6 @@
+
+// [출처: BOJ] https://www.acmicpc.net/problem/5972
+
 var input = readLine()!.split(separator: " ").map { Int($0)! }
 let (n, m) = (input[0], input[1])
 
